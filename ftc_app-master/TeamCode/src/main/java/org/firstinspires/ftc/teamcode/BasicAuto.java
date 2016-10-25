@@ -21,6 +21,10 @@ public class BasicAuto extends OpMode{
 
     @Override
     public void loop() {
+
+        leftDrive.setPower(1);
+        rightDrive.setPower(1);
+
     }
 
 }
