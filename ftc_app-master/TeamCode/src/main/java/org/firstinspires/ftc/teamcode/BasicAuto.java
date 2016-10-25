@@ -16,7 +16,6 @@ public class BasicAuto extends OpMode{
 
         leftDrive = hardwareMap.dcMotor.get("left");
         rightDrive = hardwareMap.dcMotor.get("right");
-
     }
 
     @Override
